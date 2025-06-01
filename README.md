@@ -18,7 +18,7 @@ This project is a simple **CRUD API** built with **Node.js** using the **Fastify
    ```bash
    npm install fastify
    npm install @neondatabase/serverless
-   npm install postgress
+   npm install postgres
    npm install dotenv -D
    ```
 
