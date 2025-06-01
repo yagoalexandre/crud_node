@@ -1,0 +1,31 @@
+{
+  "name": "crud_node",
+  "version": "1.0.0",
+  "description": "An Aplication that uses Fastfy framework from node, postgress database for do control from list of data, it is possible work with some resources like insert, update, delete and select of data records",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node --watch --no-warnings server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yagoalexandre/crud_node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yagoalexandre/crud_node/issues"
+  },
+  "homepage": "https://github.com/yagoalexandre/crud_node#readme",
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.0",
+    "fastify": "^5.3.3",
+    "postgres": "^3.4.7"
+  },
+  "devDependencies": {
+    "dotenv": "^16.5.0"
+  }
+}

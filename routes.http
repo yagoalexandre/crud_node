@@ -1,0 +1,28 @@
+POST http://localhost:3333/animes
+Content-type: application/json
+
+{
+    "anime": "",
+    "description": "",
+    "note": // number
+}
+
+
+###
+
+GET http://localhost:3333/animes
+
+###
+
+PUT http://localhost:3333/animes/
+Content-type: application/json
+
+{
+    "anime": "",
+    "description": "",
+    "note": // number
+}
+
+###
+
+delete http://localhost:3333/animes/
